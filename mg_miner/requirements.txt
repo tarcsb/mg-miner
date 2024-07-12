@@ -1,0 +1,10 @@
+# requirements.txt
+
+# Project dependencies
+# Add your project-specific dependencies here
+
+# Development dependencies
+flake8
+black
+unittest
+pre-commit
