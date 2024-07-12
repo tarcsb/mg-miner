@@ -1,5 +1,12 @@
 # mg-miner
 
+
+# Major refactor in progress
+ OOO, more modular, and language specifics.
+ UI/plugins support coming soon
+ more testing
+ upgraded error handling, logging ... stay tuned.
+
 `mg-miner` is a command-line tool designed to mine and summarize project files, providing an overview of the project's structure, types of files, backend and frontend components, and testing frameworks used.
 Its the extractor portion of ma much larger purpose of assessing maturity, compliance, maintenance and portability for cloud migrations. My goal is to play well with ETL.
 
@@ -31,7 +38,7 @@ Its the extractor portion of ma much larger purpose of assessing maturity, compl
 - **File Concatenation**: Concatenates the content of multiple files into a single output file.
 - **Sensitive Information Redaction**: Redacts sensitive information from files.
 - **Silent Mode**: Runs in silent mode, suppressing output to the console.
-
+ 
 ## Installation
 
 Install the package via pip:
